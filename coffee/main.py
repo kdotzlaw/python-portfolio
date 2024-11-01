@@ -1,4 +1,8 @@
-import MoneyMachine from 'src/money-machine'
+from src import money
+from src import menu    
+from src import coffee
+
+
 if __name__ == '__main__':
     # initialize
     menu = Menu()
