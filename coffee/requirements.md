@@ -1,0 +1,14 @@
+# Program Flow
+- User prompt 'What type of coffee do you want?' with options: Cappucino, Latte, , Espresso
+    - Should show everytime the action has completed
+- Check available resources -- are there enough resources to make the user requested coffee?
+    - If a resource is not available, display a message
+    - If resources are available, prompt user for payment
+        - If payment is successful, display a message & add payment to total money made
+        - If payment is unsuccessful, display a message 
+        - If payment is successful but user payed too much, display a message and refund the user the extra amount
+- If there are enough resources and payment is successful, make the coffee
+    - Remove resources from inventory
+    - Display a message
+    - action completed, serve next customer
+- If 'Off' is input, end program and print report
