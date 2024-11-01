@@ -3,7 +3,7 @@ class MenuItem:
     def __init__(self, name, price, milk, water, coffee):
         self.name = name    
         self.price = price
-        self.ingredients = [milk, water, coffee]
+        self.ingredients ={'milk':milk, 'water':water, 'coffee':coffee}
         
 # full menu: list of menu items, also has own functions
 class Menu:

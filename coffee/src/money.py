@@ -9,18 +9,19 @@ class MoneyMachine:
         return self.total_money
     
     
-    def payment(self, num_coins, amount):
+    def payment(self, amount):
         print('Here are your coins'+str(self.coins))
+        print("Your coffee costs $" + str(amount))
         sum = 0
         for coin in self.coins:
             num = int(input('How many '+coin+' do you want? '))
             sum += num * self.coins[coin]
         # check if payment is successful
-        if sum == num_coins:
+        if sum == amount:
             print('Payment successful')
             self.add_money(sum)
             return True
-        elif sum > num_coins:
+        elif sum > amount:
             print('Here is your change: $'+str(sum-amount))
             self.add_money(sum-amount)
             return True

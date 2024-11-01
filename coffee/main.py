@@ -1,13 +1,18 @@
-from src import money
-from src import menu    
-from src import coffee
+# add to path
+import sys
+import os
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), 'src')))
+
+from src.money import MoneyMachine
+from src.menu import Menu
+from src.coffee import CoffeeMaker
 
 
 if __name__ == '__main__':
     # initialize
-    menu = menu.Menu()
-    coffeeMachine = coffee.CoffeeMachine()
-    moneyMachine = money.MoneyMachine()
+    menu = Menu()
+    coffeeMachine = CoffeeMaker()
+    moneyMachine = MoneyMachine()
     customers=0
     # display menu
     menu.display_menu()
@@ -19,21 +24,20 @@ if __name__ == '__main__':
         item = menu.find_item(choice)
         # check if resources are available
         for ingredient in item.ingredients:
-            if not moneyMachine.check_resources(ingredient):
-                print('Sorry, you do not have enough ' + ingredient)
+            #print(ingredient)
+            if not coffeeMachine.check_resources(ingredient, item.ingredients[ingredient]):
+                print('Sorry, you do not have enough ' + ingredient.name)
                 break
         else:
             # if resources are available, prompt user for payment
-            moneyMachine.payment(item, item.price)
             # if payment is successful, make the coffee
-            if moneyMachine.total_money >= item.price:
-                coffeeMachine.make_coffee(item.ingredients)
-                # remove resources from inventory
-                for ingredient in item.ingredients:
-                    moneyMachine.add_money(moneyMachine.coins[ingredient])
+            if moneyMachine.payment(item.price):
+            #if moneyMachine.total_money >= item.price:
+                coffeeMachine.make_coffee(item.ingredients,item.price)
                 # display a message
                 print('Here is your coffee')
                 print('Enjoy!')
+            
         
         choice = input('What type of coffee do you want? ')
         
