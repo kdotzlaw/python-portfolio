@@ -5,9 +5,9 @@ from src import coffee
 
 if __name__ == '__main__':
     # initialize
-    menu = Menu()
-    coffeeMachine = CoffeeMachine()
-    moneyMachine = MoneyMachine()
+    menu = menu.Menu()
+    coffeeMachine = coffee.CoffeeMachine()
+    moneyMachine = money.MoneyMachine()
     customers=0
     # display menu
     menu.display_menu()
