@@ -26,22 +26,22 @@ A simple console driven Coffee Shop simulator where the user is the customer. Fo
    Plays a game of Tic Tac Toe against the computer where the computer makes weighted choices. Focuses on conditionals, loops, dictionaries, and game logic.
  - #### Webscraping
 ### Web Development
- - #### Portfolio Website
- - #### Cafe & Wifi Website
- - #### ToDo List Website
- - #### eCommerce Website
+ - #### [Portfolio Website]()
+ - #### [Cafe & Wifi Website](professional-portfolio/cafe-website.py)
+ - #### [ToDo List Website]()
+ - #### [eCommerce Website]()
 ### Graphics/UI Design
- - #### Breakout Game
- - #### Space Invaders
+ - #### [Breakout Game](professional-portfolio/breakout.py)
+ - #### [Space Invaders]()
 ### Desktop Apps
- - #### Image Watermarking App
- - #### Typing Speed Test
+ - #### [Image Watermarking App]()
+ - #### [Typing Speed Test]()
 ### APIs
- - #### Text-to-Speech PDF Reader
+ - #### [Text-to-Speech PDF Reader]()
 ### Data Science
- - #### Image Colour Palette Generator
- - #### Space Race Data Analysis
- - #### Analysis of Deaths Involving Police in the US
+ - #### [Image Colour Palette Generator]()
+ - #### [Space Race Data Analysis]()
+ - #### [Analysis of Deaths Involving Police in the US]()
 ### Python Automation
-- #### Custom Automation
-- #### Google Dinosaur Game
+- #### [Custom Automation]()
+- #### [Google Dinosaur Game]()
