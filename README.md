@@ -18,4 +18,4 @@ A simple console driven Coffee Shop simulator where the user is the customer. Fo
 
 ### Machine Learning/Data Analysis
 
-## Portfolio Projects
+## [Portfolio Projects](professional-portfolio/requirements.md)
