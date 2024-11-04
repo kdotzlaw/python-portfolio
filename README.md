@@ -18,4 +18,30 @@ A simple console driven Coffee Shop simulator where the user is the customer. Fo
 
 ### Machine Learning/Data Analysis
 
-## [Portfolio Projects](professional-portfolio/requirements.md)
+## [Portfolio Projects](professional-portfolio)
+### Python Basics
+ - #### [String to Morse Code Converter](professional-portfolio/morse-code-converter.py)
+   Converts a string into international morse code via command line. Focuses on command line arguments, string manipulation, and dictionaries.
+ - #### [Tic Tac Toe](professional-portfolio/tic-tac-toe.py)
+   Plays a game of Tic Tac Toe against the computer where the computer makes weighted choices. Focuses on conditionals, loops, dictionaries, and game logic.
+ - #### Webscraping
+### Web Development
+ - #### Portfolio Website
+ - #### Cafe & Wifi Website
+ - #### ToDo List Website
+ - #### eCommerce Website
+### Graphics/UI Design
+ - #### Breakout Game
+ - #### Space Invaders
+### Desktop Apps
+ - #### Image Watermarking App
+ - #### Typing Speed Test
+### APIs
+ - #### Text-to-Speech PDF Reader
+### Data Science
+ - #### Image Colour Palette Generator
+ - #### Space Race Data Analysis
+ - #### Analysis of Deaths Involving Police in the US
+### Python Automation
+- #### Custom Automation
+- #### Google Dinosaur Game
