@@ -7,7 +7,13 @@
 - Each circle should be around 20px 
 - There should be 50px between each circle
 
+Explores basic turtle principles such as drawing, moving, and coloring.
 
 ## Snake
+
+### Fundamentals
+
+### Snake Game
+
 
 ## Turtle Crossing
