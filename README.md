@@ -10,8 +10,28 @@ A simple console driven Blackjack game against the computer. Focuses on fundamen
 #### [Day 15: Coffee Machine Capstone](coffee)
 A simple console driven Coffee Shop simulator where the user is the customer. Focuses on fundamentals like OOP, conditionals, importing Python modules, and project planning.
 
-### Turtle Graphics
-#### Snake
+### [Turtle Graphics](turtle-graphics/requirements.md)
+
+#### [Snake](turtle-graphics/snake/main.py)
+- Created an OOP snake game with the following features:
+   - Snake moves with the following keys:  w: up, a: left, s: down, d: right
+   - Snake eats food when it is within 15 pixels of the food
+   - After food is eaten, a new food is created
+   - Snake grows when it eats food and the score increases
+   - If the Snake crashes into walls, the game ends
+   - If the Snake crashes into itself, the game ends
+
+Explores Turtle graphics event handling, collision detection, game mechanics, and scoring.
+
+#### [Pong](turtle-graphics/pong/main.py)
+- Created an OOP Pong game with the following features:
+    - 2 paddles that move up and down and are controlled by the keyboard
+    - Ball bounces off walls
+    - If the ball hits the paddle, the ball bounces back and the speed increases
+    - If a paddle misses the ball, the other paddle gets a point
+    - The score is displayed on the screen
+    - Game ends when the score reaches 10
+    - 
 #### Turtle Crossing Capstone
 
 ### Webscraping
