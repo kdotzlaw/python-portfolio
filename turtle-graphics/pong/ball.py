@@ -11,7 +11,7 @@ class Ball(Turtle):
         self.goto(0,0)
         
     def move(self):
-        # 
+        pass
         
     def bounce(self):
         pass
