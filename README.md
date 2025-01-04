@@ -46,7 +46,8 @@ Explores Turtle graphics event handling, collision detection, game mechanics, an
    Plays a game of Tic Tac Toe against the computer where the computer makes weighted choices. Focuses on conditionals, loops, dictionaries, and game logic.
  - #### Webscraping
 ### Web Development
- - #### [Portfolio Website]()
+ - #### [Portfolio Website](https://kdotzlaw.github.io/website/)
+   Created with React.js, JavaScript, HTML/CSS
  - #### [Cafe & Wifi Website](professional-portfolio/cafe-website.py)
  - #### [ToDo List Website]()
  - #### [eCommerce Website]()
